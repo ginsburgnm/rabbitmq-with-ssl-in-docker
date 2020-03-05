@@ -2,7 +2,6 @@
 
 > RabbitMQ and SSL made easy for tests.
 
-[![Build Status](https://travis-ci.org/roboconf/rabbitmq-with-ssl-in-docker.svg?branch=master)](https://travis-ci.org/roboconf/rabbitmq-with-ssl-in-docker)
 [![License](https://img.shields.io/hexpm/l/plug.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
 This repository aims at building a RabbitMQ container with SSL enabled.
@@ -13,10 +12,12 @@ It is recommended to mount a volume so that the client certificate can be reache
 host system. Client certificates are generated under the **/home/client** directory.
 
 ## To use a dummy image
+DO NOT USE THIS FOR PRODUCTION - private certs are baked in; this is purely available for **testing** purposes.
 
-`ginsburgnm/rabbitmqssl
+K cool. warned.
 `
-
+ginsburgnm/rabbitmqssl
+`
 
 ## To build this image
 Build with docker like anything else
